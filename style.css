@@ -47,8 +47,17 @@ table {
 	border-spacing: 0;
 }
 html {
+  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
 body {
   background-color: #60aff6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.panel {
+  background-color: white;
 }

@@ -79,3 +79,14 @@ body {
   margin-bottom: 25px;
   max-width: 100%;
 }
+
+.pricing-header {
+  color: #888888;  
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.pricing-features {
+  margin: 50px 0 25px;
+  color: #016ff8;
+}

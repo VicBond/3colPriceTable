@@ -109,3 +109,13 @@ body {
   font-size: 32px;
   font-weight: 700;
 }
+
+.pricing-button {
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 25px 0;
+  text-decoration: none;
+  border: 1px solid #9dd1fe;
+  border-radius: 10px;
+  color: #348eff;
+}

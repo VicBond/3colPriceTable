@@ -69,10 +69,10 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-.pricing-plane {
+.pricing-plan {
   border-bottom:  1px solid #e1f1ff;
 }
-.pricing-plane:last-child {
+.pricing-plan:last-child {
   border-bottom: none;
 }
 .pricing-img {
@@ -131,4 +131,18 @@ body {
 .pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
   background-color: #2692ff;
   color: white;
+}
+
+@media (min-width: 900px) {
+  .panel {
+    flex-direction: row;
+  }
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1fe;
+    padding: 25px 50px;
+  }
+  .pricing-plan:last-child {
+    border-right: none;
+  }
 }

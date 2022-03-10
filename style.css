@@ -66,4 +66,16 @@ body {
   padding: 15px 25px;
   width:100%;
   max-width: 960px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.pricing-plane {
+  border-bottom:  1px solid #e1f1ff;
+}
+.pricing-plane:last-child {
+  border-bottom: none;
+}
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
 }

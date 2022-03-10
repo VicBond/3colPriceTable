@@ -119,3 +119,16 @@ body {
   border-radius: 10px;
   color: #348eff;
 }
+
+.pricing-button:hover, .pricing-button:focus {
+  background-color:#e1f1fe;
+  transition: background-color 100ms ease-in-out;
+}
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: white;
+}
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
+  background-color: #2692ff;
+  color: white;
+}
